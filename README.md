@@ -24,11 +24,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Login screen
 
-[![Login](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/login_screen.png)](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/login_screen.png)
+[![Unclaimed](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/unclaimed_devices_list_screen.png)](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/unclaimed_devices_list_screen.png)
 
 ### Unclaimed devices list screen
 
-[![Unclaimed](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/unclaimed_devices_list_screen.png)](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/unclaimed_devices_list_screen.png)
+[![Login](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/login_screen.png)](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/login_screen.png)
 
 ## Built With
 
