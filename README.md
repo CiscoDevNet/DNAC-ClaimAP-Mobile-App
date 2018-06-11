@@ -20,15 +20,28 @@ These instructions will get you a copy of the project up and running on your loc
 - Either select your MacBook USB connected device or select a simulator from Xcode.
 - Click on Play button (>) to build and deploy the app to the selected device
 
+## Installation
+- On deploy the app in mobile, it will ask to trust the Untrusted Enterprise developer.
+- In the mobile, navigate to Settings --> General --> Device Management --> Profiles
+- Click on 'Trust ClaimDevices'
+- Pop-up will appear and click on Trust in the pop-up
+- After trust, the app run smoothly and it will launch the login screen
+
 ## Screenshots
 
 ### Login screen
+
+
 
 [![Login](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/login_screen.png)](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/login_screen.png)
 
 ### Unclaimed devices list screen
 
+
+
 [![Unclaimed](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/unclaimed_devices_list_screen.png)](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/unclaimed_devices_list_screen.png)
+
+
 
 ## Built With
 
