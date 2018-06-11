@@ -4,7 +4,7 @@ This app is used to claim Day-0 or DNA-C supported Plug-n-Play(PnP) devices and 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See Deployment section on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -25,6 +25,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Login screen
 
 [![Login](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/login_screen.png)](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/login_screen.png)
+
+### Unclaimed devices list screen
+
+[![Unclaimed](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/unclaimed_devices_list_screen.png)](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/unclaimed_devices_list_screen.png)
 
 ## Built With
 
