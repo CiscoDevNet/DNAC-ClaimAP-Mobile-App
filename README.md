@@ -20,6 +20,11 @@ These instructions will get you a copy of the project up and running on your loc
 - Either select your MacBook USB connected device or select a simulator from Xcode.
 - Click on Play button (>) to build and deploy the app to the selected device
 
+## Screenshots
+
+### Login screen
+
+[![Login](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/login_screen.png)](https://github.com/CiscoDevNet/DNAC-ClaimAP-Mobile-App/blob/master/img/login_screen.png)
 
 ## Built With
 
