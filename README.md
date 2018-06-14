@@ -30,6 +30,8 @@ Search 8081 port in your cloned project and replace it with 8888 (RCTDefines.h -
 
 - Network request failed
 Open RCTHTTPRequestHandler.h file in XCode. Search "#pragma mark - NSURLSession delegate" and then add the following code  <br />
+
+```
 - (void)URLSession:(NSURLSession *)session didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition, NSURLCredential *))completionHandler{  <br />
     if([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust]){  <br />
         //if([challenge.protectionSpace.host isEqualToString:@"mydomain.com"]){  <br />
@@ -38,6 +40,7 @@ Open RCTHTTPRequestHandler.h file in XCode. Search "#pragma mark - NSURLSession 
         // }  <br />
     }  <br />
 }  <br />
+```
 
 - Code signing error (during installation on mobile using XCode)  <br />
 Select Show the Project Navigator. Select claimDevices --> General tab and expand "Signing" accordian. Add an account using Team dropdown. Sign in with your Apple ID  <br /> 
