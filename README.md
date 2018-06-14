@@ -24,24 +24,24 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Debugging
 
-- Command /bin/sh failed with exit code 2
-Select Show the Project Navigator. Select claimDevices --> Libraries --> React.xcodeproj. Select Build Phases tab. Expand Start Packager and change the port to 8888.
-Search 8081 port in your cloned project and replace it with 8888 (RCTDefines.h -> line # 79 and 88 and in RCTInspectorDevServerHelper.mm)
+- Command /bin/sh failed with exit code 2 <br />
+Select Show the Project Navigator. Select claimDevices --> Libraries --> React.xcodeproj. Select Build Phases tab. Expand Start Packager and change the port to 8888. <br />
+Search 8081 port in your cloned project and replace it with 8888 (RCTDefines.h -> line # 79 and 88 and in RCTInspectorDevServerHelper.mm) <br />
 
 - Network request failed
-Open RCTHTTPRequestHandler.h file in XCode. Search "#pragma mark - NSURLSession delegate" and then add the following code
-- (void)URLSession:(NSURLSession *)session didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition, NSURLCredential *))completionHandler{
-    if([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust]){
-        //if([challenge.protectionSpace.host isEqualToString:@"mydomain.com"]){
-            NSURLCredential *credential = [NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust];
-            completionHandler(NSURLSessionAuthChallengeUseCredential,credential);
-        // }
-    }
-}
+Open RCTHTTPRequestHandler.h file in XCode. Search "#pragma mark - NSURLSession delegate" and then add the following code  <br />
+- (void)URLSession:(NSURLSession *)session didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition, NSURLCredential *))completionHandler{  <br />
+    if([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust]){  <br />
+        //if([challenge.protectionSpace.host isEqualToString:@"mydomain.com"]){  <br />
+            NSURLCredential *credential = [NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust];  <br />
+            completionHandler(NSURLSessionAuthChallengeUseCredential,credential);  <br />
+        // }  <br />
+    }  <br />
+}  <br />
 
-- Code signing error (during installation on mobile using XCode)
-Select Show the Project Navigator. Select claimDevices --> General tab and expand "Signing" accordian. Add an account using Team dropdown. Sign in with your Apple ID 
-Also, change the bundle identifier to different path under  claimDevices --> General tab --> Identity
+- Code signing error (during installation on mobile using XCode)  <br />
+Select Show the Project Navigator. Select claimDevices --> General tab and expand "Signing" accordian. Add an account using Team dropdown. Sign in with your Apple ID  <br /> 
+Also, change the bundle identifier to different path under  claimDevices --> General tab --> Identity  <br />
 
 
 
